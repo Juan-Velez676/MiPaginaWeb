@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Los Lenguajes de Programación</title>
+    <!-- Bootstrap, CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000000; 
+            color: #ffffff; 
+            font-family: 'Verdana', sans-serif; 
+            line-height: 1.6; 
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            color: #ffffff; 
+            background-color: #333333; 
+            padding: 10px;
+            text-align: center;
+        }
+
+        .large-text {
+            font-size: 1.5em;
+        }
+
+        .language {
+            margin-bottom: 20px;
+            border: 2px solid #555555;
+            padding: 15px;
+            border-radius: 10px;
+            overflow: hidden; 
+        }
+
+        .language h3 {
+            color: #FFD700;
+            font-size: 1.3em;
+            margin-top: 0;
+        }
+
+        .language p {
+            color: #ffffff;
+            text-align: justify;
+            word-spacing: 2px;
+            margin-top: 0;
+        }
+
+        .language a {
+            color: #1E90FF; 
+            text-decoration: none; 
+        }
+
+        .language a:hover {
+            text-decoration: underline; 
+        }
+
+        .language img {
+            max-width: 100%; 
+            display: block; 
+            margin-top: 15px; 
+        }
+
+        nav {
+            background-color: #444444;
+            width: 100%;
+            height: 50px;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #111111;
+        }
+
+        .copy-block {
+            display: inline-block;
+            background-color: #444444;
+            color: #ffffff;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .copy-block:hover {
+            background-color: #555555;
+            color: #FFD700;
+        }
+    </style>
+</head>
+<body>
+<header class="bg-dark text-white text-center py-2">Los Lenguajes de Programación - HEADER</header>
+
+<!-- Menú de navegación -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#lenguajes">Lenguajes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="container mt-4">
+    <h1 class="large-text">Los Lenguajes de Programación</h1>
+    <article>
+        <p id="special">Este sitio web ofrece una visión general sobre los diferentes lenguajes de programación, destacando sus características principales y proporcionando ejemplos de uso. Exploraremos algunos de los lenguajes más importantes y utilizados en la industria, brindando información detallada que te ayudará a comprender mejor sus aplicaciones y beneficios. Aquí podrás conocer tanto los lenguajes más tradicionales como las opciones más modernas. Aprender a programar no solo te abre puertas en el ámbito laboral, sino que también mejora tus habilidades de resolución de problemas y pensamiento lógico.</p>
+    </article>
+    <article>
+        <h2 id="lenguajes">Lenguajes de Programación</h2>
+        <div class="language">
+            <h3>C++</h3>
+            <p>Lenguaje de programación de propósito general, ampliamente utilizado en aplicaciones de sistema y desarrollo de videojuegos. C++ ofrece una gran flexibilidad y control sobre los recursos del sistema, lo que lo hace ideal para aplicaciones de alto rendimiento. Sin embargo, su complejidad también lo convierte en un lenguaje desafiante para los principiantes. <a href="https://es.wikipedia.org/wiki/C%2B%2B" target="_blank">Más información</a></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/200px-ISO_C%2B%2B_Logo.svg.png" alt="Logo de C++">
+        </div>
+        <div class="language">
+            <h3>HTML5</h3>
+            <p>Lenguaje de marcado utilizado para estructurar y presentar contenido en la web. HTML5 introduce nuevas etiquetas y funcionalidades que facilitan la creación de páginas web interactivas y multimedia. Es el estándar actual para el desarrollo web y es esencial para cualquier desarrollador web. <a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">Más información</a></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png" alt="Logo de HTML5">
+        </div>
+        <div class="language">
+            <h3>JavaScript</h3>
+            <p>Lenguaje de programación interpretado, orientado a objetos, utilizado principalmente en el desarrollo web para crear páginas dinámicas. JavaScript es el motor que impulsa la interactividad en la web moderna. Permite a los desarrolladores crear experiencias de usuario ricas y responsivas. Con el auge de frameworks como React, Angular y Vue.js, JavaScript se ha convertido en una herramienta indispensable para el desarrollo front-end. <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">Más información</a></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/320px-Unofficial_JavaScript_logo_2.svg.png" alt="Logo de JavaScript">
+        </div>
+        <div class="language">
+            <h3>C#</h3>
+            <p>Lenguaje de programación orientado a objetos, desarrollado por Microsoft, utilizado en una amplia variedad de aplicaciones, especialmente en el desarrollo de aplicaciones de escritorio y videojuegos. C# es conocido por su simplicidad y potencia, y es el lenguaje principal para el desarrollo en la plataforma .NET. Su sintaxis clara y su fuerte integración con el entorno de desarrollo Visual Studio lo hacen muy popular entre los desarrolladores. <a href="https://es.wikipedia.org/wiki/C_Sharp" target="_blank">Más información</a></p>
+            <img src="https://www.vikingsoftware.com/wp-content/uploads/2024/02/C.png" alt="Logo de C#">
+        </div>
+        <div class="language">
+            <h3>Python</h3>
+            <p>Lenguaje de programación de alto nivel, interpretado y de propósito general, conocido por su sintaxis clara y legibilidad. Python es uno de los lenguajes más populares debido a su simplicidad y versatilidad. Es utilizado en diversas áreas como desarrollo web, análisis de datos, inteligencia artificial, y más. Su amplia comunidad y abundancia de recursos lo hacen ideal para principiantes y expertos por igual. <a href="https://es.wikipedia.org/wiki/Python" target="_blank">Más información</a></p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/100px-Python-logo-notext.svg.png" alt="Logo de Python">
+        </div>
+    </article>
+</section>
+<aside class="container mt-4">
+    <h3 class="large-text highlight">Autor</h3>
+    <p class="highlight">Creado por Juan Velez, Contacto: <a href="mailto:Juantareas789@gmail.com">Juantareas789@gmail.com</a>.</p>
+    <div class="copy-block" onclick="copyEmail()">Copiar Dirección</div>
+</aside>
+<footer class="bg-dark text-white text-center py-2">
+    <p>Institución: Skolmi.</p>
+</footer>
+
+<script>
+    function copyEmail() {
+        const email = "Juantareas789@gmail.com";
+        navigator.clipboard.writeText(email).then(() => {
+            alert('Correo copiado al portapapeles: ' + email);
+        }).catch(err => {
+            console.error('Error al copiar el correo: ', err);
+        });
+    }
+</script>
+
